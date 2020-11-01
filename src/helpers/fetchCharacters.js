@@ -6,7 +6,6 @@ const fetchCharacters = async(character) => {
     const url = character !== '' ? populateCharacter : emptyCharacter;
     const resp = await fetch(url);
     const {results} = await resp.json();
-    // console.log('data :', results);
 
     const characters = results ? results.map(info => {
         return {

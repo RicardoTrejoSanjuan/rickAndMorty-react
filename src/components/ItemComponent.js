@@ -6,7 +6,6 @@ const ItemComponent = ({character}) => {
     return (
         <div className="card-box animate__animated animate__bounce animate__jello">
             <div className="card">
-                {/* animate__fadeIn animate__jello */}
                 <div className="cara">
                     <img src={character.image} alt={character.name} />
                 </div>

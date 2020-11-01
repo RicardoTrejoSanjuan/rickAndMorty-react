@@ -9,7 +9,7 @@ const HomeScreen = () => {
     return (
         <>
             <div className="container p-4">
-                <h1>React - App</h1>
+                <h1>The Rick and Morty API</h1>
                 <SearchComponent setCharacter={ setCharacter } />
                 <hr />
 
