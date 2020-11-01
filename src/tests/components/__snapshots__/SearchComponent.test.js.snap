@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test en <SearchComponent /> Dede mostrar el componente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      key="inputValue"
+    >
+      <span
+        className="text-danger"
+      >
+        *
+      </span>
+       Character: 
+    </label>
+    <input
+      className="form-control"
+      id="inputValue"
+      onChange={[Function]}
+      placeholder="Introduce One Character"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+</form>
+`;

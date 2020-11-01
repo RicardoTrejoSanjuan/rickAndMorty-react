@@ -6,7 +6,7 @@ const Layout = () => {
         <>
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div className="container">
-                    <Link to="/rickAndMorty-react" className="navbar-brand">Home</Link>
+                    <Link to="/rickAndMorty-react/" className="navbar-brand">Home</Link>
                     <button
                         className="navbar-toggler"
                         type="button"

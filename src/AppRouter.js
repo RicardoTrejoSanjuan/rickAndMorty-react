@@ -15,7 +15,7 @@ export const AppRouter = () => {
                 <Layout />
                 <Switch>
                     <Route exact path="/rickAndMorty-react/about" component={AboutScreen} ></Route>
-                    <Route exact path="/rickAndMorty-react" component={HomeScreen} ></Route>
+                    <Route exact path="/rickAndMorty-react/" component={HomeScreen} ></Route>
                 </Switch>
             </div>
         </Router>

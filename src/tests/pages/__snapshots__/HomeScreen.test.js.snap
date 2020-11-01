@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test en <HomeScreen /> Dede mostrar el componente 1`] = `
+<Fragment>
+  <div
+    className="container p-4"
+  >
+    <h1>
+      The Rick and Morty API
+    </h1>
+    <SearchComponent
+      setCharacter={[Function]}
+    />
+    <hr />
+    <ol>
+      <GridComponent
+        character=""
+        key=""
+      />
+    </ol>
+  </div>
+</Fragment>
+`;

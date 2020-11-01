@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test en <Layout /> Dede mostrar el componente <Layout/> 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <div
+      className="container"
+    >
+      <Link
+        className="navbar-brand"
+        to="/rickAndMorty-react/"
+      >
+        Home
+      </Link>
+      <button
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-target="#navbarNav"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul
+          className="navbar-nav"
+        >
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/rickAndMorty-react/about"
+            >
+              About
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</Fragment>
+`;

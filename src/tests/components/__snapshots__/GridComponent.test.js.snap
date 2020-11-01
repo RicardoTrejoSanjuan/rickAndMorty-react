@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test en <GridComponent /> Debe contener <ItemComponent /> 1`] = `
+<div>
+  <h3
+    className="animate__animated animate__bounce animate__delay"
+  >
+    "
+    rick
+    "
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <ItemComponent
+      character={
+        Object {
+          "gender": "Male",
+          "id": 1,
+          "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+          "name": "Rick Sanchez",
+          "species": "Human",
+          "status": "Alive",
+        }
+      }
+      key="1"
+    />
+  </div>
+</div>
+`;
+
+exports[`Test en <GridComponent /> Dede mostrar el componente 1`] = `
+<div>
+  <h3
+    className="animate__animated animate__bounce animate__delay"
+  >
+    "
+    rick
+    "
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  >
+    <h5
+      className="text-danger"
+    >
+      There is nothing here...
+    </h5>
+  </div>
+</div>
+`;

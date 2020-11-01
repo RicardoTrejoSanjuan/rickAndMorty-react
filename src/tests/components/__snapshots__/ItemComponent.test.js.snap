@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test en <ItemComponent /> Dede mostrar el componente 1`] = `
+<div
+  className="card-box animate__animated animate__bounce animate__jello"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="cara"
+    >
+      <img
+        alt="Rick Sanchez"
+        src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      />
+    </div>
+    <div
+      className="cara info"
+    >
+      <div
+        className="containerImg"
+      >
+        <div
+          className="titleCard"
+        >
+          <h5>
+            <b>
+              Rick Sanchez
+            </b>
+          </h5>
+        </div>
+        <p>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </p>
+        <p>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </p>
+        <p>
+          <b>
+            Gender:
+          </b>
+           
+          Male
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
