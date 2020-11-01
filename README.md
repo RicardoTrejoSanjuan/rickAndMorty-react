@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can see the app on [GitHub Pages - rickAndMorty-react](https://ricardotrejosanjuan.github.io/rickAndMorty-react/)
+
 ## Installation
 
 In the project directory, you can run:
